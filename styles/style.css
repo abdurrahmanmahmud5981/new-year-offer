@@ -18,6 +18,9 @@ main {
   max-width: 1320px;
   font-family: "Merriweather", serif;
   margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 button {
   cursor: pointer;
@@ -291,23 +294,22 @@ button {
 }
 .subscribe-filde {
   background: rgb(255, 255, 255);
-
   border-radius: 50px;
 }
 input {
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
   /* background: rgb(255, 255, 255); */
 }
 input,
 .subscribe {
   border: none;
-  padding: 8px 14px;
+  padding: 24px 36px;
   display: inline-block;
 }
 .subscribe {
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
   color: white;
   background-color: #f00;
 }
@@ -330,7 +332,8 @@ footer {
 .footer {
   max-width: 1320px;
   margin: 0 auto;
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .footer-content{
   padding-top: 200px;
