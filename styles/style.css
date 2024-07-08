@@ -161,7 +161,8 @@ button {
   margin-block: 20px;
 }
 .best-offer-description,
-.holiday-description {
+.holiday-description,
+.portfolio-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -228,4 +229,37 @@ button {
   width: 100%;
   display: block;
 
+}
+/* portfolio style   */
+.portfolio{
+  margin-block: 120px;
+
+}
+.portfolio-sub-title{
+ 
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.portfolio-title{
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+margin-top: 30px;
+
+}
+.portfolio-description{
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+.portfolio-showcase{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
