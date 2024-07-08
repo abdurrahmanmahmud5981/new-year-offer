@@ -141,6 +141,7 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin: 120px auto;
 }
 .best-offer-content,
 .best-offer-image,
@@ -158,9 +159,9 @@ button {
   font-size: 48px;
   font-weight: 900;
   margin-block: 20px;
-
 }
-.best-offer-description {
+.best-offer-description,
+.holiday-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -174,11 +175,10 @@ button {
   border-radius: 50%;
   border: 15px solid #f00;
 }
-.best-offer-image img{
+.best-offer-image img {
   display: block;
   border-radius: 364.844px;
   width: 100%;
-  
 }
 
 .best-offer-year-number {
@@ -187,7 +187,45 @@ button {
   font-weight: 700;
   margin-top: 40px;
 }
-.best-offer-year img{
+.best-offer-year img {
   display: block;
   margin-top: 40px;
+}
+
+/* holidays sale style */
+.holiday-sale {
+  margin: 120px auto;
+  text-align: center;
+  max-width: 1020px;
+ 
+}
+.holiday-sub-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-title {
+  color: #070211;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 20px;
+
+}
+.discount-images{
+  height:750px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  background:  url("../assets/images/Rectangle\ 2.png") center bottom no-repeat;
+  border-radius: 16px;
+}
+.discount-images img{
+  width: 100%;
+  display: block;
+
 }
